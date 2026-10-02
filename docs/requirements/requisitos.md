@@ -40,7 +40,7 @@ Perfis de login: **ATENDENTE** e **GESTOR** (atendente com cadastros e relatóri
 | RN01 | Tipos de senha: SP (prioritária), SG (geral) e SE (retirada de exames). |
 | RN02 | Qualquer guichê atende qualquer tipo de senha. |
 | RN03 | O ciclo de chamada é `[SP] → [SE\|SG] → [SP] → [SE\|SG]`: cada nova chamada tem tipo diferente de SP em relação à anterior quando houver fila. |
-| RN04 | Dentro do bloco `[SE\|SG]`, a SE é chamada antes da SG (SE vem sempre após uma SP, quando houver). |
+| RN04 | Logo após uma SP, a SE (quando houver) é chamada antes da SG. Nas demais chamadas, sem SP na fila, SE e SG se alternam para que nenhuma fique sem atendimento. |
 | RN05 | Se a fila do tipo da vez estiver vazia, o sistema segue a ordem de prioridade (SP > SE > SG) entre as filas não vazias. |
 | RN06 | Dentro de cada tipo, a fila é FIFO (ordem de emissão). |
 | RN07 | O expediente vai das 07h às 17h. Fora dele não se emitem nem se chamam senhas. |

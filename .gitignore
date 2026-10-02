@@ -1,0 +1,32 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+build/
+coverage/
+
+# Variáveis de ambiente (use .env.example como modelo)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache
+.cache/
+.eslintcache
+.vite/
+*.tsbuildinfo
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

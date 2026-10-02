@@ -18,8 +18,11 @@ CREATE TABLE IF NOT EXISTS sequencias (
 );
 
 -- linha única usada como mutex da fila (concorrência na chamada)
+-- guarda também o tipo da última senha chamada (ciclo SP -> SE|SG -> SP ...)
 CREATE TABLE IF NOT EXISTS trava_fila (
-  id TINYINT PRIMARY KEY
+  id          TINYINT PRIMARY KEY,
+  dia         DATE NULL,
+  ultimo_tipo ENUM('SP','SG','SE') NULL
 );
 INSERT IGNORE INTO trava_fila (id) VALUES (1);
 
@@ -35,6 +38,7 @@ CREATE TABLE IF NOT EXISTS senhas (
   emitida_em   DATETIME NOT NULL,
   chamada1_em  DATETIME NULL,
   chamada2_em  DATETIME NULL,
+  ultima_chamada_em DATETIME(3) NULL,               -- ordena o painel
   inicio_em    DATETIME NULL,
   fim_em       DATETIME NULL,
   guiche       TINYINT NULL,

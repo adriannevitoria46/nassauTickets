@@ -10,8 +10,8 @@ Sistema de controle de atendimento (emissão, fila, chamada e atendimento de sen
 | Dimitrys Belarmino de Souza | 01357199 | Desenvolvedor |
 | Carlos Eduardo de Vasconcelos Luis | 01904246 | Testador |
 | Maria Eduarda Oliveira de Souza | 01889250 | Documentador |
-| Gabrielle Sophia Félix Nunes de Souza | 01888389 | Documentador |
-| Júlia Coimbra Ricca | 01881648 | Testador |
+| Gabrielle Sophia Felix Nunes de Souza | 01888389 | Testador |
+| Júlia Coimbra Ricca | 01881648 | Documentador |
 
 ## Descrição e objetivo
 

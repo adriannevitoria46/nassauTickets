@@ -7,11 +7,11 @@ Sistema de controle de atendimento (emissão, fila, chamada e atendimento de sen
 | Nome | Matrícula | Papel |
 |------|-----------|-------|
 | Adrianne Vitória Araújo de Lima | 01888546 | Scrum Master |
-| Dimitrys Belarmino de Souza | 01357199 | Desenvolvedor |
 | Carlos Eduardo de Vasconcelos Luis | 01904246 | Testador |
-| Maria Eduarda Oliveira de Souza | 01889250 | Documentador |
+| Dimitrys Belarmino de Souza | 01357199 | Desenvolvedor |
 | Gabrielle Sophia Felix Nunes de Souza | 01888389 | Testador |
 | Júlia Coimbra Ricca | 01881648 | Documentador |
+| Maria Eduarda Oliveira de Souza | 01889250 | Documentador |
 
 ## Descrição e objetivo
 

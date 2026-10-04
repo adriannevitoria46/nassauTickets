@@ -72,3 +72,6 @@ Protótipos de baixa fidelidade das telas.
 |  Cadastrar atendente: nome / login / senha       |
 +--------------------------------------------------+
 ```
+## Teste - Carlos
+
+Sistema testado com sucesso. Fluxos principais verificados e funcionamento geral conferido.

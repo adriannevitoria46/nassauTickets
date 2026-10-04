@@ -146,7 +146,7 @@ Testes do backend (regra de prioridade): `cd backend && npm test`.
 - `main`: versão estável, recebe apenas merges da `dev`.
 - `dev`: desenvolvimento; todo o código entra primeiro aqui.
 
-Commits pequenos e objetivos, no padrão `feat:`, `fix:`, `docs:`, `test:` e `chore:`.
+   Commits pequenos e objetivos, no padrão `feat:`, `fix:`, `docs:`, `test:` e `chore:`.
 
 ## Licença
 

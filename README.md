@@ -10,8 +10,8 @@ Sistema de controle de atendimento (emissão, fila, chamada e atendimento de sen
 | Dimitrys Belarmino de Souza | 01357199 | Desenvolvedor |
 | Carlos Eduardo de Vasconcelos Luis | 01904246 | Testador |
 | Maria Eduarda Oliveira de Souza | 01889250 | Documentador |
-| Gabrielle Sophia Félix Nunes de Souza | 01888389 | Documentador |
-| Júlia Coimbra Ricca | 01881648 | Testador |
+| Gabrielle Sophia Felix Nunes de Souza | 01888389 | Testador |
+| Júlia Coimbra Ricca | 01881648 | Documentador |
 
 ## Descrição e objetivo
 
@@ -146,7 +146,7 @@ Testes do backend (regra de prioridade): `cd backend && npm test`.
 - `main`: versão estável, recebe apenas merges da `dev`.
 - `dev`: desenvolvimento; todo o código entra primeiro aqui.
 
-Commits pequenos e objetivos, no padrão `feat:`, `fix:`, `docs:`, `chore:`.
+   Commits pequenos e objetivos, no padrão `feat:`, `fix:`, `docs:`, `test:` e `chore:`.
 
 ## Licença
 
